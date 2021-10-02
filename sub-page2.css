@@ -1,0 +1,166 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Montserrat&family=Raleway:wght@200&display=swap');
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration-style: none;
+	
+}
+body{
+	
+	
+	
+;
+
+		font-family: "Monstserrat;", sans-serif;
+}
+/*----------------------------NAV BAR--------------------*/
+
+
+
+li, .stl,.cta{
+	font-family: 'Monstserrat', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgba(242, 241, 239, 1);
+	text-decoration: none;
+
+
+}
+header{
+	position: flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background: #000F08;
+	text-decoration: none;
+	list-style: none;
+
+}
+
+.logo{
+	cursor: pointer;
+	}
+.logo:hover{
+	color: #857e7b;
+	transition: all 0.3s ease 0s;
+}
+}
+.list{
+	list-style: none;
+	text-decoration: none;
+}
+.list li{
+	display: inline-block;
+	padding: 0px 20px;
+	position: flex;
+}
+.list li .stl{
+	transition: all 0.3s ease 0.3;
+
+}
+.list li .stl:hover {
+	color: #857E7B; 
+
+}
+.stl{
+	padding: px px;
+	border: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+
+
+}
+.stl:hover{
+	color: #857E7B;
+	transition: all 0.3s ease 0s;}
+
+
+/*-----------------------------CONTAINER SECTION-----------------------*/
+
+
+}
+.tekst{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 300;
+	font-size: 30px;
+	position: flex;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 50px;
+	text-align: center;
+}
+.tyt{
+	position: flex;
+	margin-top: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 39px;
+	font-weight: bold;
+	text-align: center;
+
+}
+img{
+	position: flex;
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+	border-radius: 5px;
+	box-shadow: 5px 5px 5px #BEBEBE;
+	max-width: 100%;
+}
+
+}
+}
+.info{
+	font-family: Montserrat;nt
+	font-weight: 300;
+	font-size: 20px;
+	position: flex;
+	margin-top: 50px;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+	padding: 30px 10%;
+	
+}
+
+img {
+	max-width: 100%;
+}
+p{
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+	font-size: 25px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: ;
+
+}
+.wrap{
+	width: 1000px;
+	height: auto;
+	display: block;
+	text-align: center;
+	position: relative ;
+	margin: auto;
+	
+}
+div{
+	max-width: 100%;
+}
+
+h2{
+	text-align: left;
+	margin-top: 50px;
+	margin-left: 10px;
+	margin-bottom: 50px;
+	font-size: 28px;
+	font-family: 'montserrat', sans-serif;
+	font-weight: ;
+
+}

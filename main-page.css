@@ -1,0 +1,427 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Montserrat&family=Raleway:wght@200&display=swap');
+
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration-style: none;
+	
+}
+body{
+	
+	background-image: url("backgr.jpg");
+	
+;
+
+		font-family: "Monstserrat;", sans-serif;
+}
+/*----------------------------NAV BAR--------------------*/
+
+
+
+li, .stl,.cta{
+	font-family: 'Monstserrat', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	color: rgba(242, 241, 239, 1);
+	text-decoration: none;
+
+
+}
+header{
+	position: flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px 10%;
+	background: #000F08;
+	text-decoration: none;
+	list-style: none;
+
+}
+
+.logo{
+	cursor: pointer;
+	}
+.logo:hover{
+	color: #857e7b;
+	transition: all 0.3s ease 0s;
+}
+}
+.list{
+	list-style: none;
+	text-decoration: none;
+}
+.list li{
+	display: inline-block;
+	padding: 0px 20px;
+	position: flex;
+}
+.list li .stl{
+	transition: all 0.3s ease 0.3;
+
+}
+.list li .stl:hover {
+	color: #857E7B; 
+
+}
+.stl{
+	padding: px px;
+	border: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease 0s;
+
+
+}
+.stl:hover{
+	color: #857E7B;
+	transition: all 0.3s ease 0s;}
+a{
+   text-decoration: none;
+   color: black;
+}
+
+/*-----------------------------CONTAINER SECTION-----------------------*/
+
+#container{
+	position: flex;
+	margin: auto;
+	width: 1600px;
+	height: auto;
+	background: transparent;
+	margin-top: 5px;
+	justify-content: block;
+	align-content: center;
+	
+	
+}
+.main{
+	width: 1550px;
+	height: auto;
+	background-color: transparent;
+	margin: auto;
+}
+
+.card{
+
+	display: inline-block;
+	width: 1550px;
+	height: 594px;
+	padding: px;
+	background-color: white;
+	position: flex;
+	margin-top: 5px;
+	flex-direction: column;
+	box-shadow: 5px 5px 5px  #BEBEBE ;
+
+
+	
+}
+.img{
+	position: flex;
+	display: inline-block;
+	object-fit: scale-down;
+	width: 800px;
+	height: 594px;
+	background-color: transparent;
+	position: FLEX;
+	overflow: hidden;
+	display: flex;
+	float: left;
+	style="max-width: 100%;height: auto;";
+	max-width: 100%;
+	
+}
+
+img:hover{
+	transform: scale(1.25);
+
+	transition: transform 2s ease;}
+
+
+.wrapleft{
+	position: flex;
+	display: inline-block;
+	width: 750px;
+	height: 394px;
+	background-color: transparent;
+	float: right;
+   text-decoration: none;
+
+}
+.title{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 29px;
+	margin-top: 10%;
+	max-width: 100%;
+	style="width:100%;"
+   text-decoration: none;
+   color: black;
+
+
+	
+}
+.opis{
+	text-align: center;
+	margin-top: 5%;
+	font-family: 'Raleway', sans-serif;
+	text-align: justify;
+	margin-left: 10px;
+	margin-right: 10px;
+	max-width: 90%;
+	style="width:90%;"
+
+}
+.buttom
+{display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  border: 3px solid green;
+}
+img{
+	max-width: 100%;
+	style="width:100%;"
+}
+.button{
+	
+	position: flex;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	margin-top: 100px;
+}
+button{
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #5DA9E9;
+	color: black;
+	border-radius: 5px;
+	border: none;
+
+}
+button:hover{
+	background-color: #C2F970;
+	transition: all 0.3s ease 0s;}
+}
+
+
+
+/*======================FOOTER===============================*/
+
+/*#footer{
+position : absolute;
+    bottom : 0;
+    height : 40px;
+	 margin-top : 40pxr;
+   *//
+    
+
+}
+
+/* =============== RESPONSIVE STUFF (TO OPTIMIZE!) =============*/
+
+@media screen and (min-width: 1300px) {
+ #body,.card,.img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:600px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;  
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+   #body,.card,.img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:600px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;  
+    margin: auto;  
+  }
+}
+@media screen and (max-width: 375px) {
+   body,.card,.img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:100%;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;    
+    margin: auto;
+  }
+  .title{
+  	font-size: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+   body,.card,.img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:300px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;   
+    margin: auto; 
+  } .title{
+  	font-size: 20px;
+  }
+}
+@media screen and (max-width: 420px) {
+  body,.card, .img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:400px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000; 
+    margin: auto;   
+  }.title{
+  	font-size: 20px;
+  }
+  .img{
+  	display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+ body, .card, .img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:365px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;    
+    margin: auto;
+
+  } .title{
+  	font-size: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+ body, .card, .img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:550px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;    
+    margin: auto;
+} .title{
+  	font-size: 20px;
+  }
+  }
+@media screen and (max-width: 550px) {
+ body, .card, .img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:500px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;    
+    margin: auto;
+} .title{
+  	font-size: 20px;
+  }
+  }
+  @media screen and (max-width: 500px) {
+ body, .card, .img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:450px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;    
+    margin: auto;
+
+  }
+ .title{
+  	font-size: 20px;
+  }
+}
+  @media screen and (max-width: 450px) {
+ body, .card, .img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:400px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;    
+    margin: auto;
+
+  }
+ .title{
+  	font-size: 20px;
+  }
+}
+  @media screen and (max-width: 400px) {
+ body, .card, .img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:350px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;    
+    margin: auto;
+
+  }
+ .title{
+  	font-size: 20px;
+  }
+}
+  @media screen and (max-width: 350px) {
+ body, .card, .img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:300px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;    
+    margin: auto;
+
+  }
+ .title{
+  	font-size: 20px;
+  }
+}
+  @media screen and (max-width: 300px) {
+ body, .card, .img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:250px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;    
+    margin: auto;
+
+  }
+ .title{
+  	font-size: 20px;
+  }
+}
+  @media screen and (max-width: 250px) {
+ body, .card, .img, .wrapleft, #container ,.main,.title,.opis{ 
+    float: none;
+    background-size: 100% 100%;
+    width:200px;
+    align-items: center;
+    border:0;
+    border-bottom:0px solid #000;    
+    margin: auto;
+
+  }
+ .title{
+  	font-size: 20px;
+  }
+}
